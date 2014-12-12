@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Digital Divide in North Jersey</title>
+		<meta charset="utf-8>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="all" href="/style.css"/>
+        <link rel="stylesheet" href="http://leafletjs.com/dist/leaflet.css">
+		<style>
+			
+			#map {
+				width: 1280px;
+				height: 720px;
+			}
+
+			.info {
+				padding: 6px 8px;
+				font: 14px/16px Arial, Helvetica, sans-serif;
+				background: white;
+				background: rgba(255,255,255,0.8);
+				box-shadow: 0 0 15px rgba(0,0,0,0.2);
+				border-radius: 5px;
+			}
+			.info h4 {
+				margin: 0 0 5px;
+				color: #777;
+			}
+
+			.legend {
+				text-align: left;
+				line-height: 18px;
+				color: #555;
+			}
+			.legend i {
+				width: 18px;
+				height: 18px;
+				float: left;
+				margin-right: 8px;
+				opacity: 0.7;
+			}
+		
+		</style>
+	</head>
+	<body>
+                                                                           <body lang="en">
+  <header>
+    <div class="wrapper clearfix">
+
+      <div id="title">
+        <h1> Mapping the Digital Divide in North Jersey </h1>
+      </div>
+
+      
+      <ul id="nav">
+        
+          
+      </ul>
+
+      
+        <div class="clearfix"></div>
+        <div id="slider-holder" class="clearfix">
+          <div class="demo-map"></div>
+
+          <div class="home-slider-clearfix "></div>
+
+          <div id="headline">
+            <h4>There are many factors that correlate to the digital divide</h4>
+            <ul class="headline-list">
+              <li>The data that is readily available only describes the litteral access</li>
+              <li>Digital literacy is not as easily measured so its generally not addressed</li>
+              <li>Misses the social aspect of the internet</li>
+            </ul>
+          </div>
+        </div>
+		<div id="map"></div>
+
+		<script src="http://leafletjs.com/dist/leaflet.js"></script>
+
+		<script type="text/javascript"src="CAI_data.js"></script>
+        <script type="text/javascript"src="BB_MSA_data.js"></script>
+		<script type="text/javascript"src="NJ_digitalD_interaction.js"></script>
+		</div>
+  </header>
+
+  <div id="main">
+    <div class="wrapper clearfix">
+      
+        <div class="home-block clearfix">
+  <h1 class="home-headline">Factors </h1>
+  <ul>
+    <li>
+      <h4>Critical Anchor Institutions</h4>
+      <p></p>
+    </li>
+    <li>
+      <h4>Interactivity</h4>
+      <p> Hover over features to read the data tables </p>
+    </li>
+    <li>
+      <h4>Layers</h4>
+      <p> Adding layers soon that you can toggle through</p>
+    </li>
+
+  </ul>
+</div>
+      
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrapper clearfix">
+      <div class="footer-bottom">
+        <div class="left">&copy; Anne Duquennois </div>
+      </div>
+    </div>
+  </footer>
+	</body>
+</html>
